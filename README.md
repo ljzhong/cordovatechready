@@ -25,9 +25,9 @@ The following technologies are needed to launch this example:
 ![Custom installer](media/core.png)
 5. Publish the web app to Azure to get the URL of the web app
 6. Replace the instance of "[[URL]]" in the Cordova project with the website's URL. [[URL]] appears in:
- 1. config.xml (code view), content tag
- 2. config.xml (code vieW), allow-nav tag
- 3. www/index.html, content-security-policy meta tag
+ 1. config.xml (code vieW), allow-nav tag
+ 2. www/index.html, content-security-policy meta tag
+ 3. www/scripts/offline-client.js, var targetUrl 
 
 ## Play around
 
