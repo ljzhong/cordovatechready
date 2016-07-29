@@ -8,7 +8,7 @@
     }
 
     function onFirstConnection() {
-        var targetUrl = 'http://thursdaydemo.azurewebsites.net';
+        var targetUrl = '[[URL]]';
 
         // if there is internet, navigate away
         if (navigator.connection.type != Connection.NONE) {
